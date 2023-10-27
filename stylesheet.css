@@ -57,11 +57,10 @@ h2 {
 
 .boxes {
     display: flex;
-    /* justify-content: space-between; */
     justify-content: center;
     align-items: center;
     gap: 1.5rem;
-    /* border: 1px solid red; */
+
 
 }
 
