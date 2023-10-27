@@ -1,0 +1,152 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: hsl(0, 0%, 98%);
+    max-width: 1440px;
+    min-width: 375px;
+    height: 800px;
+}
+
+.lightoblue{
+    border-top: 3px solid  lightblue;
+}
+
+.red{
+    border-top: 3px solid  hsl(0, 78%, 62%);
+    
+    
+    
+}
+.orange{
+
+    border-top: 3px solid hsl(34, 97%, 64%);
+}
+.blue{
+
+    border-top: 3px solid hsl(212, 86%, 64%) ;
+}
+
+h1 {
+
+    text-align: center;
+    color: hsl(229, 6%, 66%);
+    margin-top: 60px;
+    font-weight: 100;
+}
+
+h2 {
+    text-align: center;
+    font-weight: 600px;
+    font-size: 32px;
+    color: hsl(234, 12%, 34%)
+}
+
+.intro {
+    text-align: center;
+    font-weight: 300;
+    margin:  auto;
+    /* max-width: 500px; */
+    margin-bottom: 40px;
+    color: hsl(229, 6%, 66%);
+
+}
+
+.boxes {
+    display: flex;
+    /* justify-content: space-between; */
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    /* border: 1px solid red; */
+
+}
+
+.box {
+    display: flex;
+    /* border: 1px solid black; */
+    width: 300px;
+    height: 250px;
+    padding: 10px ;
+    flex-direction: column;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+}
+
+
+
+.boxcenter {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+
+}
+
+.box p{
+    font-size: 15px;
+    color: hsl(229, 6%, 66%);
+    margin-bottom: 62px;
+    
+}
+
+.title {
+    color: hsl(234, 12%, 34%);
+    font-weight: bold;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+img{
+    width: 50px;
+}
+img{
+        margin-left: auto;
+        margin-right: 15px;
+        margin-bottom: 15px;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+
+
+    h1 {
+        font-size: 24px;
+
+    }
+
+    h2{
+        font-size: 20px;
+    }
+
+    .intro{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .boxes{
+        flex-direction: column;
+        padding-bottom: 30px;
+    }
+
+    .box , .boxcenter{
+       width: 90%;
+    }
+
+    .boxcenter .box{
+        width: 100%;
+    } 
+
+
+
+    
+
+
+
+  }
